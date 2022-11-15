@@ -1,0 +1,20 @@
+/*Selector {
+    Property: value;
+}*/
+
+body{
+    background-image: url(grey.jpeg);
+    background-size: cover;
+}
+
+h2 {
+    color: rgb(0, 255, 68);
+    text-align: center;
+    border: 5px dashed solid purple;
+}
+
+p {
+    color: rgb(149, 0, 255);
+    text-align: center;
+    border: 5px dashed solid purple;
+}
