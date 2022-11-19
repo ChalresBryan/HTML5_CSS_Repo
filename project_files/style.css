@@ -2,19 +2,60 @@
     Property: value;
 }*/
 
+*{
+    text-align: center;
+}
+
+
 body{
-    background-image: url(grey.jpeg);
-    background-size: cover;
+    background-image: url(/Users/charlesbryan/Desktop/HTML5_CSS_Repo/PhoneEatsFirst.jpg); 
+    background-size: cover
 }
 
-h2 {
-    color: red;
-    text-align: center;
-    border: 5px dashed solid purple;
+header{
+    text-align: right;
+    color: white;
 }
 
-p {
-    color: rgb(8, 0, 255);
+li {
+    list-style: none;
+    display: block;
+}
+
+.active{
+    color: white;
     text-align: center;
-    border: 5px dashed solid purple;
+}
+
+.left{
+    color: white;
+    text-align: left;
+}
+
+.right{
+    color: white;
+    text-align: right;
+    text-indent: 125px;
+}
+
+.center{
+    color: white;
+    text-align: center;
+}
+
+
+h3{
+    text-align: right;
+    color: white;
+}
+
+body h3{
+    text-align: left;
+    text-indent: 125px;
+    color: white;
+}
+
+
+#div1{
+    background: rgba(255, 255, 255, 0.2);
 }
