@@ -2,51 +2,39 @@
     Property: value;
 }*/
 
+/*
 *{
     text-align: center;
 }
-
+*/
 
 body{
-    background-image: url(/Users/charlesbryan/Desktop/HTML5_CSS_Repo/PhoneEatsFirst.jpg); 
+    background-image: url(/Users/charlesbryan/Desktop/HTML5_CSS_Repo/grey.jpeg); 
     background-size: cover
 }
 
 header{
-    text-align: right;
-    color: white;
-}
-
-li {
-    list-style: none;
-    display: block;
-}
-
-.active{
-    color: white;
-    text-align: center;
-}
-
-.left{
-    color: white;
     text-align: left;
-}
-
-.right{
     color: white;
     text-align: right;
     text-indent: 125px;
 }
 
+.left{
+    color: white;
+    text-align: left;
+    text-indent: 125px;
+}
+
+.right{
+    color: white;
+    text-align: right;
+    text-indent: -125px;
+}
+
 .center{
     color: white;
     text-align: center;
-}
-
-
-h3{
-    text-align: right;
-    color: white;
 }
 
 body h3{
@@ -55,7 +43,37 @@ body h3{
     color: white;
 }
 
+body section h2 {
+    font-weight: bold;
+    font-size: 250%;
+}
 
-#div1{
-    background: rgba(255, 255, 255, 0.2);
+body section p {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.boxmodel{
+    padding: 5px 20px 5px 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    list-style: none;
+}
+
+.boxmodel_left{
+    padding: 5px 20px 5px 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: left;
+    color: white;
+    justify-content: center;
+}
+
+img:hover{
+    transform: scale(1.175);
+}
+
+li {
+    list-style: none;
 }
