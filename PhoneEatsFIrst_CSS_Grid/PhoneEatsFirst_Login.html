@@ -30,14 +30,14 @@
     <div class="login">
       Sign Up
       <form method="get">
-        First Name: <input type="text" required name="firstname"><br><br>
-        Last Name: <input type="text" required name="lastname"><br><br>
-        Email: <input type="text" required name="email"><br><br>
-        Phone: <input type="PhoneNumber" required name="PhoneNumber" min="10" maxlength="10"><br><br>
-        Password: <input type="password" min="5" required name="password"><br><br>
+        First Name: <input required type="text" id="userInput"><br><br>
+        Last Name: <input required type="text" id="userInput"><br><br>
+        Email: <input required type="text" id="userInput"><br><br>  
+        Phone: <input required type="PhoneNumber"  id="userInput" min="10" maxlength="10"><br><br>
+        Password: <input required type="password" min="5" id="userInput"><br><br>
         <hr>
-        <input type="submit" value="Register!">
-        <input type="reset">
+        <button id="register">Register!</button>
+        <button id="SignUpReset">Reset</button>
       </form>
 
     </div>
@@ -45,11 +45,11 @@
     <div class="login">
       Sign In
       <form method="get">
-        Email: <input type="text" required name="email"><br><br>
-        Password: <input type="password" min="5" required name="password"><br><br>
+        Email: <input required type="text" id="userInput"><br><br>
+        Password: <input required type="password" min="5" id="userInput"><br><br>
         <hr>
-        <input type="submit" value="Submit">
-        <input type="reset">
+        <button id="submit">Submit</button>
+        <button id="SignInReset">Reset</button>
       </form>
     </div>
 

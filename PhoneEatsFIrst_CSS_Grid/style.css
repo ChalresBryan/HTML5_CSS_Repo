@@ -1,7 +1,8 @@
 body{
     margin: auto 0;
     background-size: cover;
-    /* ------ background-image: url());  ------ */
+    /* ------ background-image: url(/Users/charlesbryan/Desktop/HTML5_CSS_Repo/PhoneEatsFIrst_CSS_Grid/A_black_image.jpeg));  ------ */
+    background-image: url(/Users/charlesbryan/Desktop/HTML5_CSS_Repo/PhoneEatsFIrst_CSS_Grid/A_black_image.jpeg);
     font-family: arial;
 }
 
@@ -162,7 +163,10 @@ body nav ul li a{
 /***********************************************************************
  *  login
  **********************************************************************/
- .login{
+.login{
+
+    grid-column-start: 1;
+    grid-column-end: -1;
 
     cursor:pointer;
     color:#FFF;
