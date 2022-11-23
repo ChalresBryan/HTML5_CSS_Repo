@@ -64,9 +64,8 @@ function signIn(userName,userPassword)
     return userId;
 }
 
-var userNamePrompt = prompt("Input user name");
-var userPasswordPrompt = prompt("Input password");
-
-signIn(userNamePrompt,userPasswordPrompt);
+//var userNamePrompt = prompt("Input user name");
+//var userPasswordPrompt = prompt("Input password");
+//signIn(userNamePrompt,userPasswordPrompt);
 
 // console.log()

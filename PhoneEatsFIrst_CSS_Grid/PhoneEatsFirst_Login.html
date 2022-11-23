@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Eats First Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  <!------- Nav ---------> 
+  <nav class="zone yellow sticky">
+    <ul class="main-nav">
+      <li><a href="file:///Users/charlesbryan/Desktop/HTML5_CSS_Repo/PhoneEatsFIrst_CSS_Grid/index.html">Home</a></li>
+      <li><a href="">Restaurants</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Our Team</a></li>
+      <li><a href="">Contacts</a></li>
+      <li class="push"><a href="">Sign Up / Sign In</a></li>
+    </ul>
+  </nav>
+
+  <!------- Cover ---------> 
+  <div class="cover-container zone red" style="height: 200px;"> 
+    Sign in or Sign up for Phone Eats First
+  </div>
+  
+
+  <!------ Project Grid ------> 
+  <div class="grid-container">
+
+    <div class="login">
+      Sign Up
+      <form method="get">
+        First Name: <input type="text" required name="firstname"><br><br>
+        Last Name: <input type="text" required name="lastname"><br><br>
+        Email: <input type="text" required name="email"><br><br>
+        Phone: <input type="PhoneNumber" required name="PhoneNumber" min="10" maxlength="10"><br><br>
+        Password: <input type="password" min="5" required name="password"><br><br>
+        <hr>
+        <input type="submit" value="Register!">
+        <input type="reset">
+      </form>
+
+    </div>
+
+    <div class="login">
+      Sign In
+      <form method="get">
+        Email: <input type="text" required name="email"><br><br>
+        Password: <input type="password" min="5" required name="password"><br><br>
+        <hr>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+    </div>
+
+  </div>
+
+  
+  <!------ Footer  ------> 
+  <footer>
+    <nav class="zone yellow">
+      <ul class="footer-nav">
+        <li><a href="">Terms of Service</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Contacts</a></li>
+        <li class="push"><a href="">© 2022 Phone Eats First</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <!------ JavaScript  ------> 
+  <script type="text/Javascript" src="script.js"></script>
+  
+</body>
+</html>
